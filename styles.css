@@ -638,7 +638,7 @@ nav ul li:hover {
 .cart .item-info small {
   margin-bottom: 10px;
   text-align: left;
-  word-break: break-all;
+  /* word-break: break-all; */
 }
 
 .cart .item-info small:is(:nth-child(3), :nth-child(2)) {
