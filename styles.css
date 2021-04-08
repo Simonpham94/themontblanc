@@ -730,7 +730,7 @@ nav ul li:hover {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .cart {
+  .cart-list {
     overflow-y: scroll;
     height: 100%;
     -webkit-overflow-scrolling: touch;
