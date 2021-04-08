@@ -732,7 +732,7 @@ nav ul li:hover {
 
   .cart-list {
     overflow-y: scroll;
-    height: 100%;
+    height: auto;
     -webkit-overflow-scrolling: touch;
   }
 }
