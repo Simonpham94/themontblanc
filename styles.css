@@ -96,7 +96,7 @@ nav ul li:hover {
   border: 1px solid #fff;
   background-color: transparent;
   height: 30px;
-  width: 50px;
+  width: auto;
   position: absolute;
   top: 45px;
   right: 100px;
@@ -831,7 +831,7 @@ nav ul li:hover {
   .logo .btn {
     right: 15px;
     height: 25px;
-    width: 45px;
+    /* width: 45px; */
   }
 
   .logo .btn i,
