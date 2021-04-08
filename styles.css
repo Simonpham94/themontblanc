@@ -736,11 +736,6 @@ nav ul li:hover {
     height: auto;
     -webkit-overflow-scrolling: touch;
   }
-
-  .cart .item {
-    height: 271px;
-    min-height: 100%;
-  }
 }
 
 @media (max-width: 500px) {
