@@ -53,6 +53,12 @@ button {
   cursor: pointer;
 }
 
+.contact,
+.about,
+.products-container {
+  text-align: center;
+}
+
 /* nav */
 nav ul {
   list-style: none;
@@ -437,10 +443,6 @@ nav ul li:hover {
 
 .contact h3 {
   margin-bottom: 20px;
-}
-
-.contact {
-  text-align: center;
 }
 
 .form {
