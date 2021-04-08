@@ -729,6 +729,11 @@ nav ul li:hover {
   .products {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .cart {
+    overflow-y: scroll;
+    height: auto;
+  }
 }
 
 @media (max-width: 500px) {
@@ -747,7 +752,6 @@ nav ul li:hover {
     position: absolute;
     left: 5%;
     width: 90%;
-    height: 600px;
   }
 
   .cart :is(.cart-list, .total, .btn-order) {
