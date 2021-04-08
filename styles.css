@@ -826,7 +826,7 @@ nav ul li:hover {
 
   .logo .btn i,
   .logo .btn i::before {
-    width: 9px !important;
+    font-size: 11px;
   }
 
   .logo img {
