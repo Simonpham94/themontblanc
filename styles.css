@@ -824,6 +824,11 @@ nav ul li:hover {
     width: 45px;
   }
 
+  .logo .btn i,
+  .logo .btn i::before {
+    width: 9px !important;
+  }
+
   .logo img {
     width: 40%;
   }
