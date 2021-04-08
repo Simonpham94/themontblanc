@@ -391,6 +391,10 @@ nav ul li:hover {
 }
 
 /* about us */
+.about {
+  display: flex;
+  flex-direction: column;
+}
 
 .about-us {
   display: flex;
