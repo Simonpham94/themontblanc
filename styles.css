@@ -737,7 +737,7 @@ nav ul li:hover {
   }
 
   .cart .item {
-    min-height: 271px;
+    height: 271px;
   }
 }
 
