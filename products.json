@@ -1,0 +1,143 @@
+[
+    {
+        "id": "1",
+        "name": "Montblanc 1858 Geosphere", 
+        "category": "watch",
+        "price": "982.99",
+        "img": "products/montblanc 1858 geosphere.jpg"
+    }, 
+    {
+        "id": "2",
+        "name": "Montblanc 1858 Geosphere Messner", 
+        "category": "watch",
+        "price": "1100.99",
+        "img": "products/montblanc 1858 geosphere messner.jpg"
+    }, 
+    {
+        "id": "3",
+        "name": "Montblanc 1858 Monopusher Chronograph", 
+        "category": "watch",
+        "price": "965.99",
+        "img": "products/montblanc 1858 monopusher chronograph.jpg"
+    }, 
+    {
+        "id": "4",
+        "name": "Montblanc Summit 2", 
+        "category": "watch",
+        "price": "835.99",
+        "img": "products/montblanc summit 2.jpg"
+    }, 
+    {
+        "id": "5",
+        "name": "Montblanc Starwalker Bangle", 
+        "category": "bracelet",
+        "price": "250.99",
+        "img": "products/montblanc starwalker bangle.jpg"
+    }, 
+    {
+        "id": "6",
+        "name": "Montblanc 1858 Geosphere Bracelet", 
+        "category": "bracelet",
+        "price": "196.99",
+        "img": "products/montblanc 1858 geosphere bracelet.jpg"
+    }, 
+    {
+        "id": "7",
+        "name": "Montblanc Meisterstuck Passport Holder", 
+        "category": "travel accessory",
+        "price": "120.99",
+        "img": "products/montblanc meisterstuck passport holder.jpg"
+    }, 
+    {
+        "id": "8",
+        "name": "Montblanc 4810 Passport Holder", 
+        "category": "travel accessory",
+        "price": "126.99",
+        "img": "products/montblanc 4810 passport holder.jpg"
+    }, 
+    {
+        "id": "9",
+        "name": "Montblanc Nightflight Medium Bakcpack", 
+        "category": "bag",
+        "price": "234.99",
+        "img": "products/monblanc nightflight medium bakcpack.jpg"
+    }, 
+    {
+        "id": "10",
+        "name": "Montblanc Blue Spirit Backpack", 
+        "category": "bag",
+        "price": "236.99",
+        "img": "products/montblanc blue spirit backpack.jpg"
+    }, 
+    {
+        "id": "11",
+        "name": "Montblanc 4810 Backpack", 
+        "category": "bag",
+        "price": "276.99",
+        "img": "products/montblanc 4810 backpack.jpg"
+    }, 
+    {
+        "id": "12",
+        "name": "Montblanc Fine Stationery Notebook", 
+        "category": "notebook",
+        "price": "115.99",
+        "img": "products/montblanc fine stationery notebook.jpg"
+    }, 
+    {
+        "id": "13",
+        "name": "Montblanc Walt Disney Notebook", 
+        "category": "notebook",
+        "price": "120.99",
+        "img": "products/montblanc walt disney notebook.jpg"
+    }, 
+    {
+        "id": "14",
+        "name": "Montblanc Pocket Stationery Mustard Notebook", 
+        "category": "notebook",
+        "price": "153.99",
+        "img": "products/montblanc pocket stationery mustard notebook.jpg"
+    }, 
+    {
+        "id": "15",
+        "name": "Montblanc Meisterstuck Soft Grain Wallet", 
+        "category": "wallet",
+        "price": "356.99",
+        "img": "products/montblanc meisterstuck soft grain wallet.jpg"
+    }, 
+    {
+        "id": "16",
+        "name": "Montblanc Sartorial Wallet", 
+        "category": "wallet",
+        "price": "362.99",
+        "img": "products/montblanc sartorial wallet.jpg"
+    }, 
+    {
+        "id": "17",
+        "name": "Montblanc Sartorial Pocket", 
+        "category": "wallet",
+        "price": "256.99",
+        "img": "products/montblanc sartorial pocket.jpg"
+    }, 
+    {
+        "id": "18",
+        "name": "Montblanc Meisterstuck Pocket Holder", 
+        "category": "wallet",
+        "price": "189.99",
+        "img": "products/montblanc meisterstuck pocket holder.jpg"
+    }, 
+    {
+        "id": "19",
+        "name": "Montblanc Light Cabin Compact Luggage", 
+        "category": "luggage",
+        "price": "756.99",
+        "img": "products/montblanc light cabin compact luggage.jpg"
+    }, 
+    {
+        "id": "20",
+        "name": "Montblanc My4810 Carry-on Luggage", 
+        "category": "luggage",
+        "price": "816.99",
+        "img": "products/montblanc my4810 carry-on luggage.jpg"
+    }
+
+]

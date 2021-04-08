@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>The Montblanc</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="nav">
+        <div class="logo">
+          <img src="img/logo.png" alt="logo" />
+          <button class="btn btn-shopping" id="btn-shopping">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="quantity" id="quantity"><small>0</small></span>
+          </button>
+        </div>
+        <ul class="nav-links" id="nav">
+          <li><a href="#home">home</a></li>
+          <li><a href="#products">products</a></li>
+          <li><a href="#about">about us</a></li>
+          <li><a href="#contact">contact us</a></li>
+        </ul>
+        <div class="burger" id="burger">
+          <div class="line1"></div>
+          <div class="line2 short"></div>
+          <div class="line3 short"></div>
+        </div>
+      </nav>
+
+      <div class="cart" id="cart">
+        <h4>SHOPPING BAG </h4>
+        <i class="fas fa-times close" id="btn-close"></i>
+        <div class="cart-list" id="cart-list">
+
+          <!-- <div class="item">
+            <div class="item-img">
+              <img  src="products/montblanc 1858 geosphere bracelet.jpg" alt="item">
+            </div>
+            <div class="item-info">
+              <small class="name">Montblanc 1858 Geosphere Bracelet </small>
+              <small class="remove"><u>remove</u></small>
+              <small>
+                <i class="fas fa-plus light"></i>
+                Add 1 more to shopping bag
+              </small>
+            </div>
+            <div class="item-price">
+              $450.00
+            </div>
+          </div> -->
+
+        </div>
+
+        <div class="total">
+          <span>Total:</span>
+          <span class="total-value" id="total-value"></span>
+        </div>
+
+        <a href="#" class="btn-link" id="order-place-link"><button class="btn-order" id="order-place-btn">Place Your Order</button></a>
+      </div>
+    </div>
+    <div class="jumbotron"></div>
+    <div class="main">
+      <section class="products-container" id="products">
+        <h3>Check out our collections</h3>
+        <h4>
+          <span class="line line-1"></span>
+          watches & bracelets
+          <span class="line line-2"></span>
+        </h4>
+        <div class="products" id="hand-jewellery-list">
+          <!-- products here -->
+
+        </div>
+
+        <h4>
+          <span class="line line-1"></span>
+          bags & luggage
+          <span class="line line-2"></span>
+        </h4>
+        <div class="products" id="bags-luggage-list">
+          <!-- products here -->
+        </div>
+
+        <h4>
+          <span class="line line-1"></span>
+          other assessories
+          <span class="line line-2"></span>
+        </h4>
+        <div class="products" id="others">
+         <!-- products here -->
+          
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <h3>About us</h3>
+        <div class="about-us reverse">
+          <div class="about-text">
+            <p class="about-us-title">ELEGANT & EMINENT</p>
+            <p class="about-us-text">
+              Founded in 1994, <b>The MontBlanc</b> has always driven to be the symbol of <b>elegance </b> and <b> eminence</b> that truly fit its wearer’s inner potential. 
+          </p>
+          </div>
+          
+          <img class="about-img" src="img/demo1.jpeg" alt="" />
+        </div>
+
+        <div class="about-us">
+          <img class="about-img" src="img/demo2.jpeg" alt="" />
+          <div class="about-text">
+            <p class="about-us-title">MASTERY CLOCKWORK CRAFTMANSHIP</p>
+            <p class="about-us-text">
+              Since the first generation of watches made since founded, MontBlanc has always keep its promise as one of the best watches that are made to last. With masterful craftmanship of the Swiss clockwork, along with continuous innovation and implementation of new technology, <b>The MontBlanc</b> is the well-known to be one of the leaders in watches and accessories. 
+          </p>
+          </div>
+          
+          
+        </div>
+
+        <div class="about-us reverse">
+          <div class="about-text">
+            <p class="about-us-title">SUPERFICIAL MEETS FUNCTIONAL</p>
+            <p class="about-us-text">
+              <b>The MontBlanc</b> watches are created to be a symbol of personal statement and boldness. Designed to be both <b>sophisticated</b> and <b>minimalistic</b>, it is the conveyor its master’s <b>“Elegancy & Eminence”</b>
+          </p>
+          </div>
+          
+          <img class="about-img" src="img/demo3.jpeg" alt="" />
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h3>Contact us</h3>
+        <p>
+          <b>
+            If you have any questions, send an email by filling out the contact
+            form below, or call +1-844-123-4567, Monday through Friday from 9 AM
+            to 8 PM ET.
+          </b>
+        </p>
+
+        <form id="form" class="form">
+          <div class="form-control">
+            <small>
+              <b>
+                For support with your purchase or a product related inquiry,
+                please call us at 1-844-123-4567.
+              </b>
+            </small>
+            <small>
+              <b> For all other inquiries, please complete the form below. </b>
+            </small>
+          </div>
+          <div class="form-control">
+            <label for="first-name">First name *</label>
+            <input type="text" id="first-name" required />
+          </div>
+          <div class="form-control">
+            <label for="last-name">Last name *</label>
+            <input type="text" id="last-name" required />
+          </div>
+          <div class="form-control">
+            <label for="email">Email address *</label>
+            <input type="text" id="email" required />
+          </div>
+          <div class="form-control">
+            <label for="phone">Telephone *</label>
+            <input type="text" id="phone" required />
+          </div>
+          <div class="form-control">
+            <label for="order-num">Order number</label>
+            <input type="text" id="order-num" />
+          </div>
+          <div class="form-control">
+            <label for="country">Country/Region *</label>
+            <select class="country" id="">
+              <option value="canda">Canada</option>
+              <option value="us">US</option>
+            </select>
+          </div>
+          <div class="form-control">
+            <label for="requests">Information requests *</label>
+            <select class="country" id="requests">
+              <option value="shipping">Shipping</option>
+              <option value="repairs">Repairs</option>
+              <option value="public relations">Public Relations</option>
+              <option value="product information">Product Information</option>
+            </select>
+          </div>
+          <div class="form-control">
+            <label for="message">Message *</label>
+            <textarea id="message" cols="30" rows="8"></textarea>
+          </div>
+
+          <button class="btn-form">Submit</button>
+        </form>
+      </section>
+    </div>
+
+    <div class="success-msg" id="success-msg">
+      <i class="fas fa-check"></i><span class="invisible">i</span> Your order has been successfully placed!
+    </div>
+
+    <footer class="footer" id="footer">
+
+      <a href="#" class="back-to-top" id="back-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+      </a>
+
+      <div class="wrapper-footer">
+
+        <div class="social-media">
+          <h4>Follow us</h4>
+          <div class="social-media-icons">
+            <a href="https://www.instagram.com/" target="blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="blank">
+              <i class="fab fa-facebook "></i>
+            </a>
+            <a href="https://www.twitter.com/" target="blank">
+              <i class="fab fa-twitter "></i>
+            </a>
+            <a href="https://www.pinterest.com/" target="blank">
+              <i class="fab fa-pinterest "></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="payments">
+          <h4>Payments</h4>
+          <div class="payment-icons">
+            <i class="fab fa-cc-visa "></i>
+            <i class="fab fa-cc-amex "></i>
+            <i class="fab fa-cc-mastercard "></i>
+            <i class="fab fa-cc-paypal "></i>
+          </div>
+        </div>
+
+        <div class="footer-others">
+          <h4>About us</h4>
+          <ul>
+            <a href="#"><li>Career</li></a>
+            <a href="#"><li>FAQ</li></a>
+            <a href="#"><li>Shipping & Delivery</li></a>
+          </ul>
+        </div>
+
+      </div>
+
+      <hr>
+      <small>&#169<span id="year"></span> the montblanc</small>
+    </footer>
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // Get the current year for the copyright
+      $('#year').text(new Date().getFullYear());
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
