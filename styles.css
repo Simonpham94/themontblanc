@@ -474,16 +474,16 @@ nav ul li:hover {
 }
 
 .form-control input,
-.forn-control select,
-.form-control select {
+.forn-control select {
   height: 50px;
+  -webkit-appearance: none;
 }
 
 .form-control input,
 .form-control textarea,
 .form-control select {
   outline: none;
-  border: 1px solid red;
+  border: 1px solid black;
   padding-left: 15px;
 }
 
