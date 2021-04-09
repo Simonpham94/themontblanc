@@ -476,7 +476,6 @@ nav ul li:hover {
 .form-control input,
 .form-control select {
   height: 50px;
-  -webkit-appearance: none;
 }
 
 .form-control input,
@@ -485,6 +484,7 @@ nav ul li:hover {
   outline: none;
   border: 1px solid black;
   padding-left: 15px;
+  border-radius: none;
 }
 
 .form-control label {
