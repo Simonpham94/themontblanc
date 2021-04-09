@@ -482,7 +482,7 @@ nav ul li:hover {
 .form-control textarea,
 .form-control select {
   outline: none;
-  border: 1px solid #000;
+  border: 1px solid red;
   padding-left: 15px;
 }
 
