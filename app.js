@@ -304,7 +304,24 @@
         }, 2000)
     }
 
+    //smooth scrolling on IOS
+    $('#nav li a').on('click', function(e) {
+        if(this.hash !== '') {
+            e.preventDefault();
+            const hash = this.hash; 
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800);
+        }
+    })
 
+    $('#back-to-top').on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+        scrollTop: 0
+        }, 800);
+        
+    })
 //INITIALIZE
 scrollSpy();
 updateCartInfo();

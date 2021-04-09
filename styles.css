@@ -12,15 +12,20 @@ body {
   background-color: rgb(248, 247, 247);
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
+  scroll-snap-type: y mandatory;
+} */
+
+/* section {
+  scroll-snap-align: center !important;
+} */
 
 body {
   padding: 0;
   margin: 0;
   position: relative;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   overflow-y: hidden;
 }
 
@@ -171,6 +176,7 @@ nav ul li:hover {
 }
 
 /* products */
+
 .main h3,
 .main h4 {
   text-align: center;
