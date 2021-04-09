@@ -473,11 +473,14 @@ nav ul li:hover {
   text-align: start;
 }
 
-.form-control :is(input, select) {
+.form-control input,
+.forn-control select {
   height: 50px;
 }
 
-.form-control :is(input, textarea, select) {
+.form-control input,
+.form-control textarea,
+.form-control select {
   outline: none;
   border: 1px solid #000;
   padding-left: 15px;
