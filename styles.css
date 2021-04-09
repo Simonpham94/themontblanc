@@ -474,7 +474,8 @@ nav ul li:hover {
 }
 
 .form-control input,
-.forn-control select {
+.forn-control select,
+.form-control select {
   height: 50px;
 }
 
