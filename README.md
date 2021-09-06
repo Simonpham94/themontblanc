@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> The Mont Blanc is an e-commerce website that sells luxury accessories for men. Everything from structure, styling to DOM manipulation was built from scratch using just HTML, CSS and Vanilla Javascript. Items in user shopping carts are saved in local storage so it's convenient for users' experience.
+> The Mont Blanc is an e-commerce website that sells luxury accessories for men. Everything from structure, styling to DOM manipulation was built from scratch using just HTML, CSS and Vanilla Javascript. Items in user shopping cart are saved in local storage so it's convenient for users' experience.
 
 ### ✨ [Demo](https://imsimonpham.github.io/themontblanc/)
 
